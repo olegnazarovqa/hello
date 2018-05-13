@@ -27,7 +27,7 @@ SECRET_KEY = 'dq!p((yz284i^xcjzr4*ed7f$)^cxdt5y+$)b24^b*x9ge41gh'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['olegnazarovqa.pythonanywhere.com']
 
 # STATIC FILES
 STATICFILES_DIRS = [

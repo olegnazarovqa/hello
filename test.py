@@ -1,5 +1,8 @@
-import os
+def positive_sum(arr):
+    o = 0
+    for i in arr:
+        if i > 0:
+            o += i
+    return o
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-
-print(BASE_DIR)
+print(positive_sum([4, 2, -7, 10]))
